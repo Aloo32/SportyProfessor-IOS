@@ -1,9 +1,4 @@
-//
-//  SportyProfessor_IOSUITests.swift
-//  SportyProfessor-IOSUITests
-//
-//  Created by Alejandro Barajas on 9/26/25.
-//
+
 
 import XCTest
 

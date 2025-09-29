@@ -1,21 +1,29 @@
-//
-//  ContentView.swift
-//  SportyProfessor-IOS
-//
-//  Created by Alejandro Barajas on 9/26/25.
-//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            HomeView()
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+
+            PracticeView()
+                .tabItem {
+                    Label("Practice", systemImage: "figure.run")
+                }
+
+            SocialView()
+                .tabItem {
+                    Label("Social", systemImage: "message.fill")
+                }
+
+            ProfileView()
+                .tabItem {
+                    Label("Profile", systemImage: "person.fill")
+                }
         }
-        .padding()
     }
 }
 

@@ -1,9 +1,4 @@
-//
-//  SportyProfessor_IOSTests.swift
-//  SportyProfessor-IOSTests
-//
-//  Created by Alejandro Barajas on 9/26/25.
-//
+
 
 import Testing
 @testable import SportyProfessor_IOS
