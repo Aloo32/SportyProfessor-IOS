@@ -6,6 +6,7 @@ iOS app for learning sports through gamified lessons.
 - SwiftUI
 - Firebase
 - MVVM Architecture
+- 
 
 ## Status
 🚧 In Development
