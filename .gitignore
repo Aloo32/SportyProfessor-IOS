@@ -96,6 +96,10 @@ iOSInjectionProject/
 GoogleService-Info.plist
 *.plist.backup
 
+# Swift Package Manager
+Package.resolved
+.swiftpm/
+
 # Environment
 .env
 .env.local

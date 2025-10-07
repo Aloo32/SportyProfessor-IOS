@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		834289252E9485870014761A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 834289242E9485870014761A /* FirebaseAuth */; };
+		834289272E9485940014761A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 834289262E9485940014761A /* FirebaseFirestore */; };
+		834289292E9485AB0014761A /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 834289282E9485AB0014761A /* GoogleSignIn */; };
+		8342892B2E9485B20014761A /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8342892A2E9485B20014761A /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		83BBC0172E87485F0087170C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +31,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		83BBC0092E87485D0087170C /* SportyProfessor-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SportyProfessor-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BBC0162E87485F0087170C /* SportyProfessor-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SportyProfessor-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BBC0202E87485F0087170C /* SportyProfessor-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SportyProfessor-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B74ECD2E92ECF300C00F96 /* SportyProfessor-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SportyProfessor-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B74ECE2E92ECF300C00F96 /* SportyProfessor-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SportyProfessor-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B74ECF2E92ECF300C00F96 /* SportyProfessor-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SportyProfessor-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		834289202E9476240014761A /* Exceptions for "SportyProfessor-IOS" folder in "SportyProfessor-IOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 83BBC0082E87485D0087170C /* SportyProfessor-IOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		83BBC00B2E87485D0087170C /* SportyProfessor-IOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				834289202E9476240014761A /* Exceptions for "SportyProfessor-IOS" folder in "SportyProfessor-IOS" target */,
+			);
 			path = "SportyProfessor-IOS";
 			sourceTree = "<group>";
 		};
@@ -52,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834289252E9485870014761A /* FirebaseAuth in Frameworks */,
+				834289272E9485940014761A /* FirebaseFirestore in Frameworks */,
+				834289292E9485AB0014761A /* GoogleSignIn in Frameworks */,
+				8342892B2E9485B20014761A /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,24 +96,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		834289232E9485870014761A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		83BBC0002E87485D0087170C = {
 			isa = PBXGroup;
 			children = (
 				83BBC00B2E87485D0087170C /* SportyProfessor-IOS */,
 				83BBC0192E87485F0087170C /* SportyProfessor-IOSTests */,
 				83BBC0232E87485F0087170C /* SportyProfessor-IOSUITests */,
-				83BBC00A2E87485D0087170C /* Products */,
+				83B74ECD2E92ECF300C00F96 /* SportyProfessor-IOS.app */,
+				83B74ECE2E92ECF300C00F96 /* SportyProfessor-IOSTests.xctest */,
+				83B74ECF2E92ECF300C00F96 /* SportyProfessor-IOSUITests.xctest */,
+				834289232E9485870014761A /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		83BBC00A2E87485D0087170C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				83BBC0092E87485D0087170C /* SportyProfessor-IOS.app */,
-				83BBC0162E87485F0087170C /* SportyProfessor-IOSTests.xctest */,
-				83BBC0202E87485F0087170C /* SportyProfessor-IOSUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,9 +136,13 @@
 			);
 			name = "SportyProfessor-IOS";
 			packageProductDependencies = (
+				834289242E9485870014761A /* FirebaseAuth */,
+				834289262E9485940014761A /* FirebaseFirestore */,
+				834289282E9485AB0014761A /* GoogleSignIn */,
+				8342892A2E9485B20014761A /* GoogleSignInSwift */,
 			);
 			productName = "SportyProfessor-IOS";
-			productReference = 83BBC0092E87485D0087170C /* SportyProfessor-IOS.app */;
+			productReference = 83B74ECD2E92ECF300C00F96 /* SportyProfessor-IOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		83BBC0152E87485F0087170C /* SportyProfessor-IOSTests */ = {
@@ -137,7 +165,7 @@
 			packageProductDependencies = (
 			);
 			productName = "SportyProfessor-IOSTests";
-			productReference = 83BBC0162E87485F0087170C /* SportyProfessor-IOSTests.xctest */;
+			productReference = 83B74ECE2E92ECF300C00F96 /* SportyProfessor-IOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		83BBC01F2E87485F0087170C /* SportyProfessor-IOSUITests */ = {
@@ -160,7 +188,7 @@
 			packageProductDependencies = (
 			);
 			productName = "SportyProfessor-IOSUITests";
-			productReference = 83BBC0202E87485F0087170C /* SportyProfessor-IOSUITests.xctest */;
+			productReference = 83B74ECF2E92ECF300C00F96 /* SportyProfessor-IOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -195,8 +223,12 @@
 			);
 			mainGroup = 83BBC0002E87485D0087170C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				834289212E94780B0014761A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				834289222E9478600014761A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 83BBC00A2E87485D0087170C /* Products */;
+			productRefGroup = 83BBC0002E87485D0087170C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -321,6 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SportyProfessor-IOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -378,6 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SportyProfessor-IOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -396,7 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -427,7 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -456,7 +490,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Alejandrob.SportyProfessor-IOSTests";
@@ -477,7 +511,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Alejandrob.SportyProfessor-IOSTests";
@@ -570,6 +604,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		834289212E94780B0014761A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.3.0;
+			};
+		};
+		834289222E9478600014761A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		834289242E9485870014761A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 834289212E94780B0014761A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		834289262E9485940014761A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 834289212E94780B0014761A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		834289282E9485AB0014761A /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 834289222E9478600014761A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		8342892A2E9485B20014761A /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 834289222E9478600014761A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83BBC0012E87485D0087170C /* Project object */;
 }
