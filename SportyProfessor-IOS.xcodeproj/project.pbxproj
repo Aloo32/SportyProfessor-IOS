@@ -11,6 +11,7 @@
 		834289272E9485940014761A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 834289262E9485940014761A /* FirebaseFirestore */; };
 		834289292E9485AB0014761A /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 834289282E9485AB0014761A /* GoogleSignIn */; };
 		8342892B2E9485B20014761A /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8342892A2E9485B20014761A /* GoogleSignInSwift */; };
+		8342892E2E94AC8F0014761A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8342892D2E94AC8F0014761A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8342892D2E94AC8F0014761A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		83B74ECD2E92ECF300C00F96 /* SportyProfessor-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SportyProfessor-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B74ECE2E92ECF300C00F96 /* SportyProfessor-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SportyProfessor-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B74ECF2E92ECF300C00F96 /* SportyProfessor-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SportyProfessor-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +108,7 @@
 		83BBC0002E87485D0087170C = {
 			isa = PBXGroup;
 			children = (
+				8342892D2E94AC8F0014761A /* README.md */,
 				83BBC00B2E87485D0087170C /* SportyProfessor-IOS */,
 				83BBC0192E87485F0087170C /* SportyProfessor-IOSTests */,
 				83BBC0232E87485F0087170C /* SportyProfessor-IOSUITests */,
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8342892E2E94AC8F0014761A /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
